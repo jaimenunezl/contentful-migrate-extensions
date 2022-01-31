@@ -1,0 +1,16 @@
+{
+  "name": "contentful-migrate-extensions",
+  "version": "0.1.0",
+  "description": "Allow migrate extensions from a space to new one",
+  "main": "migrate.js",
+  "scripts": {
+    "ts-node": "ts-node -P tsconfig.json",
+    "migrate": "npm run ts-node migrate.ts"
+  },
+  "author": "Jaime Núñez <jaime.nunez@outlook.cl>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "contentful-extension-cli": "^2.0.0",
+    "ts-node": "^10.4.0"
+  }
+}
